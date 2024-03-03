@@ -18,7 +18,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "quote.bubble.fill")
                 }
-            QuoteListView(netService: netService)
+            QuoteListView()
                 .tabItem {
                     Image(systemName: "list.bullet")
                 }
